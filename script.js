@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         html2canvas: { scale: 2, useCORS: true },
                         jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
                     }).save();
-                }, 300); // espera 300 milisegundos antes de generar el PDF
+                }, 300); 
             } else {
                 console.error('No se encontró el elemento #cv-content');
             }
