@@ -1,0 +1,64 @@
+.avatar{
+  width: 100%; /* que la imagen nunca sea más ancha que su contenedor */
+  max-width: 130px;
+  height: 130px;
+  border-radius:60%;
+  object-fit: cover;
+}
+.avatar-container{
+    margin-bottom: 30px;
+
+}
+.card {
+    max-width: 400px ;
+    margin: 40px auto;
+    background-color: #EE82EE;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.description {
+    margin-bottom:15px;
+}
+
+.contact {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+   
+}
+
+.link-card{
+    display: inline-block;
+    margin: 15px;
+    padding: 10px 20px;
+    background: white;
+    border-radius: 8px;
+    text-decoration: none;
+    gap: 10px;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.card ul {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.hablemos-img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+    margin-bottom: 10px;
+  }
